@@ -3,16 +3,25 @@
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
 	"Packages": [
-		"github.com/google/go-github/github"
+		"github.com/google/go-github",
+		"golang.org/x/oauth2"
 	],
 	"Deps": [
 		{
-			"ImportPath": "github.com/google/go-github/github",
+			"ImportPath": "github.com/google/go-github",
 			"Rev": "b5e5babef39c18002f177a134fc49dc5013374ba"
 		},
 		{
-			"ImportPath": "github.com/google/go-querystring/query",
-			"Rev": "9235644dd9e52eeae6fa48efd539fdc351a0af53"
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "9f2c271364b418388d150f9c12ecbf12794095c1"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "1364adb2c63445016c5ed4518fc71f6a3cda6169"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/internal",
+			"Rev": "1364adb2c63445016c5ed4518fc71f6a3cda6169"
 		}
 	]
 }
